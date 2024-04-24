@@ -1,0 +1,1 @@
+(()=>{var i={fallback:"https://liluzibird.github.io/",homes:{en:"https://liluzibird.github.io/"}};(()=>{let o=navigator.language||navigator.userLanguage;if(o in i.homes){window.location.href=i.homes[o];return}let n=o.split("-");for(let a in i.homes)if(a.indexOf(n[0])===0){window.location.href=i.homes[a];return}window.location.href=i.fallback})();})();
